@@ -3,8 +3,7 @@ import dispatchPlugin from './dispatch'
 import effectsPlugin from './effects'
 
 const corePlugins: PluginCreator[] = [
-  dispatchPlugin,
-  effectsPlugin,
+  dispatchPlugin
 ]
 
 export default corePlugins
